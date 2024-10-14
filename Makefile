@@ -17,4 +17,5 @@ remove :; 	rm -rf .gitmodules &&\
  			git commit -m "modules"
 
 install :; 	forge install foundry-rs/forge-std@v1.8.2 --no-commit &&\
- 			forge install openzeppelin/openzeppelin-contracts@v5.0.2 --no-commit
+ 			forge install openzeppelin/openzeppelin-contracts@v5.0.2 --no-commit &&\
+			forge install smartcontractkit/chainlink-brownie-contracts@0.2.1 --no-commit 
